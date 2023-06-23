@@ -1,0 +1,6 @@
+framework module Pods_firstios_firstiosUITests {
+  umbrella header "Pods-firstios-firstiosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

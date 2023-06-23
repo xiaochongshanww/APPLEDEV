@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044B72F529FEF9E90055E72E /* firstiosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B72F429FEF9E90055E72E /* firstiosApp.swift */; };
+		044B72F729FEF9E90055E72E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B72F629FEF9E90055E72E /* ContentView.swift */; };
+		044B72F929FEF9ED0055E72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044B72F829FEF9ED0055E72E /* Assets.xcassets */; };
+		044B72FC29FEF9ED0055E72E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044B72FB29FEF9ED0055E72E /* Preview Assets.xcassets */; };
+		044B730629FEF9ED0055E72E /* firstiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B730529FEF9ED0055E72E /* firstiosTests.swift */; };
+		044B731029FEF9ED0055E72E /* firstiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B730F29FEF9ED0055E72E /* firstiosUITests.swift */; };
+		044B731229FEF9ED0055E72E /* firstiosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B731129FEF9ED0055E72E /* firstiosUITestsLaunchTests.swift */; };
+		04E8EFAC2A40B292000DD03B /* v2rayAutoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8EFAB2A40B292000DD03B /* v2rayAutoClient.swift */; };
+		04E8EFAE2A41F87C000DD03B /* sshconnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8EFAD2A41F87C000DD03B /* sshconnect.swift */; };
+		04F08FC82A44C0370091369C /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04F08FC72A44C0370091369C /* Property List.plist */; };
+		04F08FCA2A44C6A00091369C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F08FC92A44C6A00091369C /* Assets.xcassets */; };
+		3EBD714D2085CA1791056E83 /* Pods_firstios_firstiosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0071C886D2A143F695E3EE9 /* Pods_firstios_firstiosUITests.framework */; };
+		42F2C4BEDF747CA4F8E24417 /* Pods_firstiosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43C0989BE0CB95B8C1A63D0 /* Pods_firstiosTests.framework */; };
+		D41C6F16027885B917213940 /* Pods_firstios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B29AF4E262CEDD5C9A644D /* Pods_firstios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044B730229FEF9ED0055E72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044B72E929FEF9E90055E72E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044B72F029FEF9E90055E72E;
+			remoteInfo = firstios;
+		};
+		044B730C29FEF9ED0055E72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044B72E929FEF9E90055E72E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044B72F029FEF9E90055E72E;
+			remoteInfo = firstios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C23CF15B3BE1BD33BE1DF8 /* Pods-firstiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstiosTests.debug.xcconfig"; path = "Target Support Files/Pods-firstiosTests/Pods-firstiosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		044B72F129FEF9E90055E72E /* firstios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B72F429FEF9E90055E72E /* firstiosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstiosApp.swift; sourceTree = "<group>"; };
+		044B72F629FEF9E90055E72E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		044B72F829FEF9ED0055E72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044B72FB29FEF9ED0055E72E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		044B730129FEF9ED0055E72E /* firstiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B730529FEF9ED0055E72E /* firstiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstiosTests.swift; sourceTree = "<group>"; };
+		044B730B29FEF9ED0055E72E /* firstiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B730F29FEF9ED0055E72E /* firstiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstiosUITests.swift; sourceTree = "<group>"; };
+		044B731129FEF9ED0055E72E /* firstiosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstiosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		049C3EA82A43410000940837 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		04E8EFAB2A40B292000DD03B /* v2rayAutoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v2rayAutoClient.swift; sourceTree = "<group>"; };
+		04E8EFAD2A41F87C000DD03B /* sshconnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sshconnect.swift; sourceTree = "<group>"; };
+		04F08FC72A44C0370091369C /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		04F08FC92A44C6A00091369C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55B29AF4E262CEDD5C9A644D /* Pods_firstios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firstios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71495F3F14A18D667138DE7C /* Pods-firstios-firstiosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstios-firstiosUITests.debug.xcconfig"; path = "Target Support Files/Pods-firstios-firstiosUITests/Pods-firstios-firstiosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		95486D8F3B7DA67D3C2F3D31 /* Pods-firstiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstiosTests.release.xcconfig"; path = "Target Support Files/Pods-firstiosTests/Pods-firstiosTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0071C886D2A143F695E3EE9 /* Pods_firstios_firstiosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firstios_firstiosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3BE9AEA03F7B71A610CF64 /* Pods-firstios-firstiosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstios-firstiosUITests.release.xcconfig"; path = "Target Support Files/Pods-firstios-firstiosUITests/Pods-firstios-firstiosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E437B513271E491A1AF2A254 /* Pods-firstios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstios.debug.xcconfig"; path = "Target Support Files/Pods-firstios/Pods-firstios.debug.xcconfig"; sourceTree = "<group>"; };
+		E43C0989BE0CB95B8C1A63D0 /* Pods_firstiosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firstiosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F414866D1B56D4575BA58037 /* Pods-firstios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstios.release.xcconfig"; path = "Target Support Files/Pods-firstios/Pods-firstios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044B72EE29FEF9E90055E72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41C6F16027885B917213940 /* Pods_firstios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B72FE29FEF9ED0055E72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F2C4BEDF747CA4F8E24417 /* Pods_firstiosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B730829FEF9ED0055E72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBD714D2085CA1791056E83 /* Pods_firstios_firstiosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044B72E829FEF9E90055E72E = {
+			isa = PBXGroup;
+			children = (
+				04F08FC92A44C6A00091369C /* Assets.xcassets */,
+				04F08FC72A44C0370091369C /* Property List.plist */,
+				049C3EA82A43410000940837 /* MyPlayground.playground */,
+				044B72F329FEF9E90055E72E /* firstios */,
+				044B730429FEF9ED0055E72E /* firstiosTests */,
+				044B730E29FEF9ED0055E72E /* firstiosUITests */,
+				044B72F229FEF9E90055E72E /* Products */,
+				EA4E14FF6C247CE7203AD83E /* Pods */,
+				7036F79D1DAC4C5123820B1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		044B72F229FEF9E90055E72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044B72F129FEF9E90055E72E /* firstios.app */,
+				044B730129FEF9ED0055E72E /* firstiosTests.xctest */,
+				044B730B29FEF9ED0055E72E /* firstiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044B72F329FEF9E90055E72E /* firstios */ = {
+			isa = PBXGroup;
+			children = (
+				044B72F429FEF9E90055E72E /* firstiosApp.swift */,
+				044B72F629FEF9E90055E72E /* ContentView.swift */,
+				044B72F829FEF9ED0055E72E /* Assets.xcassets */,
+				044B72FA29FEF9ED0055E72E /* Preview Content */,
+				04E8EFAB2A40B292000DD03B /* v2rayAutoClient.swift */,
+				04E8EFAD2A41F87C000DD03B /* sshconnect.swift */,
+			);
+			path = firstios;
+			sourceTree = "<group>";
+		};
+		044B72FA29FEF9ED0055E72E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				044B72FB29FEF9ED0055E72E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		044B730429FEF9ED0055E72E /* firstiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				044B730529FEF9ED0055E72E /* firstiosTests.swift */,
+			);
+			path = firstiosTests;
+			sourceTree = "<group>";
+		};
+		044B730E29FEF9ED0055E72E /* firstiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				044B730F29FEF9ED0055E72E /* firstiosUITests.swift */,
+				044B731129FEF9ED0055E72E /* firstiosUITestsLaunchTests.swift */,
+			);
+			path = firstiosUITests;
+			sourceTree = "<group>";
+		};
+		7036F79D1DAC4C5123820B1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55B29AF4E262CEDD5C9A644D /* Pods_firstios.framework */,
+				C0071C886D2A143F695E3EE9 /* Pods_firstios_firstiosUITests.framework */,
+				E43C0989BE0CB95B8C1A63D0 /* Pods_firstiosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA4E14FF6C247CE7203AD83E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E437B513271E491A1AF2A254 /* Pods-firstios.debug.xcconfig */,
+				F414866D1B56D4575BA58037 /* Pods-firstios.release.xcconfig */,
+				71495F3F14A18D667138DE7C /* Pods-firstios-firstiosUITests.debug.xcconfig */,
+				DD3BE9AEA03F7B71A610CF64 /* Pods-firstios-firstiosUITests.release.xcconfig */,
+				00C23CF15B3BE1BD33BE1DF8 /* Pods-firstiosTests.debug.xcconfig */,
+				95486D8F3B7DA67D3C2F3D31 /* Pods-firstiosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044B72F029FEF9E90055E72E /* firstios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B731529FEF9ED0055E72E /* Build configuration list for PBXNativeTarget "firstios" */;
+			buildPhases = (
+				C9FF5EBC06869C4B84D4F0B0 /* [CP] Check Pods Manifest.lock */,
+				044B72ED29FEF9E90055E72E /* Sources */,
+				044B72EE29FEF9E90055E72E /* Frameworks */,
+				044B72EF29FEF9E90055E72E /* Resources */,
+				5E1CEA20D9D326F78A986DF1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firstios;
+			productName = firstios;
+			productReference = 044B72F129FEF9E90055E72E /* firstios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044B730029FEF9ED0055E72E /* firstiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B731829FEF9ED0055E72E /* Build configuration list for PBXNativeTarget "firstiosTests" */;
+			buildPhases = (
+				162E2910CA7765BF685CF300 /* [CP] Check Pods Manifest.lock */,
+				044B72FD29FEF9ED0055E72E /* Sources */,
+				044B72FE29FEF9ED0055E72E /* Frameworks */,
+				044B72FF29FEF9ED0055E72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044B730329FEF9ED0055E72E /* PBXTargetDependency */,
+			);
+			name = firstiosTests;
+			productName = firstiosTests;
+			productReference = 044B730129FEF9ED0055E72E /* firstiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044B730A29FEF9ED0055E72E /* firstiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B731B29FEF9ED0055E72E /* Build configuration list for PBXNativeTarget "firstiosUITests" */;
+			buildPhases = (
+				C96DDCCA47C904718F80F980 /* [CP] Check Pods Manifest.lock */,
+				044B730729FEF9ED0055E72E /* Sources */,
+				044B730829FEF9ED0055E72E /* Frameworks */,
+				044B730929FEF9ED0055E72E /* Resources */,
+				15D459F0FDCA0EC341FB67C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044B730D29FEF9ED0055E72E /* PBXTargetDependency */,
+			);
+			name = firstiosUITests;
+			productName = firstiosUITests;
+			productReference = 044B730B29FEF9ED0055E72E /* firstiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044B72E929FEF9E90055E72E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					044B72F029FEF9E90055E72E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					044B730029FEF9ED0055E72E = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 044B72F029FEF9E90055E72E;
+					};
+					044B730A29FEF9ED0055E72E = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 044B72F029FEF9E90055E72E;
+					};
+				};
+			};
+			buildConfigurationList = 044B72EC29FEF9E90055E72E /* Build configuration list for PBXProject "firstios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044B72E829FEF9E90055E72E;
+			productRefGroup = 044B72F229FEF9E90055E72E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044B72F029FEF9E90055E72E /* firstios */,
+				044B730029FEF9ED0055E72E /* firstiosTests */,
+				044B730A29FEF9ED0055E72E /* firstiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044B72EF29FEF9E90055E72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F08FC82A44C0370091369C /* Property List.plist in Resources */,
+				044B72FC29FEF9ED0055E72E /* Preview Assets.xcassets in Resources */,
+				04F08FCA2A44C6A00091369C /* Assets.xcassets in Resources */,
+				044B72F929FEF9ED0055E72E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B72FF29FEF9ED0055E72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B730929FEF9ED0055E72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15D459F0FDCA0EC341FB67C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firstios-firstiosUITests/Pods-firstios-firstiosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firstios-firstiosUITests/Pods-firstios-firstiosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firstios-firstiosUITests/Pods-firstios-firstiosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		162E2910CA7765BF685CF300 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firstiosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E1CEA20D9D326F78A986DF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firstios/Pods-firstios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firstios/Pods-firstios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firstios/Pods-firstios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C96DDCCA47C904718F80F980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firstios-firstiosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9FF5EBC06869C4B84D4F0B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firstios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044B72ED29FEF9E90055E72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E8EFAC2A40B292000DD03B /* v2rayAutoClient.swift in Sources */,
+				044B72F729FEF9E90055E72E /* ContentView.swift in Sources */,
+				044B72F529FEF9E90055E72E /* firstiosApp.swift in Sources */,
+				04E8EFAE2A41F87C000DD03B /* sshconnect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B72FD29FEF9ED0055E72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B730629FEF9ED0055E72E /* firstiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B730729FEF9ED0055E72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B731229FEF9ED0055E72E /* firstiosUITestsLaunchTests.swift in Sources */,
+				044B731029FEF9ED0055E72E /* firstiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044B730329FEF9ED0055E72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044B72F029FEF9E90055E72E /* firstios */;
+			targetProxy = 044B730229FEF9ED0055E72E /* PBXContainerItemProxy */;
+		};
+		044B730D29FEF9ED0055E72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044B72F029FEF9E90055E72E /* firstios */;
+			targetProxy = 044B730C29FEF9ED0055E72E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		044B731329FEF9ED0055E72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		044B731429FEF9ED0055E72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044B731629FEF9ED0055E72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E437B513271E491A1AF2A254 /* Pods-firstios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"firstios/Preview Content\"";
+				DEVELOPMENT_TEAM = 98LZ2FS9JP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = V2RayAuto;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wcg.v2rayauto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044B731729FEF9ED0055E72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F414866D1B56D4575BA58037 /* Pods-firstios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"firstios/Preview Content\"";
+				DEVELOPMENT_TEAM = 98LZ2FS9JP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = V2RayAuto;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wcg.v2rayauto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		044B731929FEF9ED0055E72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C23CF15B3BE1BD33BE1DF8 /* Pods-firstiosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wcg.firstiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/firstios";
+			};
+			name = Debug;
+		};
+		044B731A29FEF9ED0055E72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95486D8F3B7DA67D3C2F3D31 /* Pods-firstiosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wcg.firstiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/firstios";
+			};
+			name = Release;
+		};
+		044B731C29FEF9ED0055E72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71495F3F14A18D667138DE7C /* Pods-firstios-firstiosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wcg.firstiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = firstios;
+			};
+			name = Debug;
+		};
+		044B731D29FEF9ED0055E72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3BE9AEA03F7B71A610CF64 /* Pods-firstios-firstiosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wcg.firstiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = firstios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044B72EC29FEF9E90055E72E /* Build configuration list for PBXProject "firstios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B731329FEF9ED0055E72E /* Debug */,
+				044B731429FEF9ED0055E72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044B731529FEF9ED0055E72E /* Build configuration list for PBXNativeTarget "firstios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B731629FEF9ED0055E72E /* Debug */,
+				044B731729FEF9ED0055E72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044B731829FEF9ED0055E72E /* Build configuration list for PBXNativeTarget "firstiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B731929FEF9ED0055E72E /* Debug */,
+				044B731A29FEF9ED0055E72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044B731B29FEF9ED0055E72E /* Build configuration list for PBXNativeTarget "firstiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B731C29FEF9ED0055E72E /* Debug */,
+				044B731D29FEF9ED0055E72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044B72E929FEF9E90055E72E /* Project object */;
+}

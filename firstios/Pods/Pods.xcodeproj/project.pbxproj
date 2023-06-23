@@ -1,0 +1,1074 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18352F3D52CAF23DC0406C2594C379A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		2EAA4405E99D4A40CE7CD1677566A8CE /* NMSFTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCD1DA96696CE9464132D9AF22C3B17 /* NMSFTP.m */; };
+		3989909BCC28F1B4E2C231A679740A06 /* Pods-firstiosTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE0EBA3FFC8DCB2370B81E3601361E4 /* Pods-firstiosTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ABC071EF2FC1BCC26011DF3958DBCBF /* NMSSHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BC00A7F2A2F6B8438846EEC0FBF793 /* NMSSHConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A363006B4974CBFF097195AF8999C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		444982A9697B70038C749064CA828EDB /* NMSSHChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B89D214120FF4498D9757429FA49780 /* NMSSHChannel.m */; };
+		4853B3F0849547F1D4DEF930642772CF /* NMSFTPFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB28FE67014FC82B75675735C6020A2 /* NMSFTPFile.m */; };
+		4E1F24FBB5903999CDD34B0F92D22E5D /* NMSFTPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 034B7B409A15A183076E53AD93653448 /* NMSFTPFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A486FE1A83B84A3E222E66833306EB /* NMSSHLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C22BE9CA5A39E178686FCF0E2F1E0A2 /* NMSSHLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54BC4C6B640B9AEA161403B18A5B1B0C /* NMSSHSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B0A0603E4ABA5C9B9F983F1E4CA3E8 /* NMSSHSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C343F72D128D9B8631C9E60983F8B04 /* libssh2_publickey.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DF5672E48C3FF2485965DB9C697F99 /* libssh2_publickey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		649EAF446DCBC6C4B31BCBD09A61BBC9 /* NMSSHHostConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A147927B35C383FE6E932B573F6A002 /* NMSSHHostConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		682057B0AA6B4E8207149D46EC0EF544 /* libssh2_sftp.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5F3D3C7F426B13053E1DE80D5308B9 /* libssh2_sftp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F4181AE261F8841B152788B193C3B42 /* NMSSHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B18A7F675E2E350144B485E9A0F589 /* NMSSHConfig.m */; };
+		76248558FED20F9FFF2185B38EB1BBC8 /* socket_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C74C8540E3CC5CF4DC96A40D5C02F7 /* socket_helper.m */; };
+		7BD60B3911B40A38D2F56F6427B17580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		80FE63F25E72B7676B364844402DCED3 /* Pods-firstios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CBD854590E37FB8DD4FECB0853D74 /* Pods-firstios-dummy.m */; };
+		82F9175C3B044B529490F4DF70516E85 /* libssh2.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BFA33C4D3CE921D5B9B3EE0C6E1905 /* libssh2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		835359C058D96007C040A4BE1ED7EB34 /* NMSSHChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0D89DC37E360ED5A3BC4305136EDE5 /* NMSSHChannelDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85788A77DFD9866B4F6BA79014A145CA /* NMSSH+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1F09035964AEEE729FF22F097DF91B /* NMSSH+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AD4331B3E125AFB57E6C48F29806516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		9E59146CAB7445B8AAF076BB9047DC6C /* NMSSH-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 400F4CDB78660A3C60B607768CA8933A /* NMSSH-dummy.m */; };
+		A5D060DF1C2BAB2E1747BA79B25630D1 /* Pods-firstios-firstiosUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF119061126CCFBC9F4B23BFC333B51 /* Pods-firstios-firstiosUITests-dummy.m */; };
+		AA5CD6882D9F639F9DCF4F96A40ADCEF /* socket_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 613A48036D05056E9C4C61EBC03FC29F /* socket_helper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B19AE031E6CCEC02B4899450D6C43FBE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
+		BBEA93C7597718F155AECD4314BD34F4 /* NMSSH-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE124E2A15EE01B9BA2ADF9715AC757 /* NMSSH-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFE781A1A5FE7DADBD76F970C779B940 /* Pods-firstios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0DB9E9FC99F4459A4025FD478C5BCB /* Pods-firstios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C76AAB6AE1C6FD8C98A69F4D241CDAA3 /* NMSSH.h in Headers */ = {isa = PBXBuildFile; fileRef = 04508640C85EC65065D04E9859398C86 /* NMSSH.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9DD0AF511774EDEAD252BB0504D7322 /* NMSSHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A85C4C0953717463A1EA0C1EC81234AB /* NMSSHLogger.m */; };
+		D49FB2E21A69F73A78C368024686F3DE /* NMSSHChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE2F17638042092AEA76ABE5927DDD0 /* NMSSHChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7200A2AF94FA6A3558E8EB9CEEE17B0 /* NMSSHSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C304E1EEFFFC7BE669B4BDFBC39699 /* NMSSHSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D919669B28569DD512CDC8772C467AAF /* NMSSH.h in Headers */ = {isa = PBXBuildFile; fileRef = 33AD3A5B63EFFD1A34FB48AD7470977B /* NMSSH.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA1159960CB45C1E2B49A49EC4687B34 /* NMSFTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 16009494DCA35C5757C85EDA5AA88F47 /* NMSFTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6EA5B3916F331033270E16FDA23791 /* NMSSHSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 9319AD3C888779758B5D45B82C55C9CE /* NMSSHSession.m */; };
+		E8B24482E9458A435233B69ECA6D7070 /* Pods-firstios-firstiosUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F136961B7125A5923D4EEFEC71FD25 /* Pods-firstios-firstiosUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE6E4644CB38F5AA5B14F68C5982B344 /* Pods-firstiosTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C93B539BDEEB3D025E248CF7305726F /* Pods-firstiosTests-dummy.m */; };
+		F318459517B3E25BE7AD3648F0447F37 /* NMSSHHostConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C31A72D57D4A02AE92FD7D2F7D154F6 /* NMSSHHostConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0038CD433B8FABB90FB7FBED0F247716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36E3194AA9B06BC5873E083ED10B917;
+			remoteInfo = NMSSH;
+		};
+		325230FABAA05CFB9B7E742D430B0663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DFB4DCA1624A7636DD8AE38496A8B12;
+			remoteInfo = "Pods-firstios";
+		};
+		C9B2469484ED943D818048490664C2FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36E3194AA9B06BC5873E083ED10B917;
+			remoteInfo = NMSSH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022DD921D4370E6DE33ABFF494BDD44C /* libssh2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssh2.a; path = "NMSSH-iOS/Libraries/lib/libssh2.a"; sourceTree = "<group>"; };
+		034B7B409A15A183076E53AD93653448 /* NMSFTPFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSFTPFile.h; path = NMSSH/NMSFTPFile.h; sourceTree = "<group>"; };
+		04508640C85EC65065D04E9859398C86 /* NMSSH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSH.h; path = "NMSSH-iOS/NMSSH.h"; sourceTree = "<group>"; };
+		04C74C8540E3CC5CF4DC96A40D5C02F7 /* socket_helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = socket_helper.m; path = NMSSH/Config/socket_helper.m; sourceTree = "<group>"; };
+		0AB4CC609013E37B5AE6EFE92C9BE361 /* Pods-firstios-firstiosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-firstios-firstiosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0B0D89DC37E360ED5A3BC4305136EDE5 /* NMSSHChannelDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHChannelDelegate.h; path = NMSSH/Protocols/NMSSHChannelDelegate.h; sourceTree = "<group>"; };
+		0C22BE9CA5A39E178686FCF0E2F1E0A2 /* NMSSHLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHLogger.h; path = NMSSH/Config/NMSSHLogger.h; sourceTree = "<group>"; };
+		16009494DCA35C5757C85EDA5AA88F47 /* NMSFTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSFTP.h; path = NMSSH/NMSFTP.h; sourceTree = "<group>"; };
+		1A2093944D7662D1E50DB163371A3456 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = "NMSSH-iOS/Libraries/lib/libssl.a"; sourceTree = "<group>"; };
+		1FE2F17638042092AEA76ABE5927DDD0 /* NMSSHChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHChannel.h; path = NMSSH/NMSSHChannel.h; sourceTree = "<group>"; };
+		244F7EC0BAB6A6BD91073F13F60D37F1 /* Pods-firstiosTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-firstiosTests"; path = Pods_firstiosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D06AF9A361711D9673144FFAA266EE /* Pods-firstiosTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-firstiosTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2781A8E88517C436C0FBAF5769BE45C5 /* Pods-firstios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-firstios.release.xcconfig"; sourceTree = "<group>"; };
+		29A49FD857460D7C27B855E135F14685 /* NMSSH.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NMSSH.modulemap; sourceTree = "<group>"; };
+		2E1F09035964AEEE729FF22F097DF91B /* NMSSH+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NMSSH+Protected.h"; path = "NMSSH/Config/NMSSH+Protected.h"; sourceTree = "<group>"; };
+		332DA04AF6ED4E7868E076D372EBB423 /* Pods-firstios-firstiosUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-firstios-firstiosUITests-frameworks.sh"; sourceTree = "<group>"; };
+		33AD3A5B63EFFD1A34FB48AD7470977B /* NMSSH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSH.h; path = NMSSH/NMSSH.h; sourceTree = "<group>"; };
+		3C93B539BDEEB3D025E248CF7305726F /* Pods-firstiosTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-firstiosTests-dummy.m"; sourceTree = "<group>"; };
+		400F4CDB78660A3C60B607768CA8933A /* NMSSH-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NMSSH-dummy.m"; sourceTree = "<group>"; };
+		43F136961B7125A5923D4EEFEC71FD25 /* Pods-firstios-firstiosUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-firstios-firstiosUITests-umbrella.h"; sourceTree = "<group>"; };
+		4BB28FE67014FC82B75675735C6020A2 /* NMSFTPFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSFTPFile.m; path = NMSSH/NMSFTPFile.m; sourceTree = "<group>"; };
+		4DE0EBA3FFC8DCB2370B81E3601361E4 /* Pods-firstiosTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-firstiosTests-umbrella.h"; sourceTree = "<group>"; };
+		50126C4CEDEE269B10A05CD75604BF72 /* Pods-firstios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-firstios-frameworks.sh"; sourceTree = "<group>"; };
+		5967D977DDC21B05888869449C49B5C5 /* Pods-firstios */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-firstios"; path = Pods_firstios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE124E2A15EE01B9BA2ADF9715AC757 /* NMSSH-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMSSH-umbrella.h"; sourceTree = "<group>"; };
+		5C5F3D3C7F426B13053E1DE80D5308B9 /* libssh2_sftp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libssh2_sftp.h; path = "NMSSH-iOS/Libraries/include/libssh2/libssh2_sftp.h"; sourceTree = "<group>"; };
+		5D07680C5E183A5F2B2585C61FDFE073 /* Pods-firstiosTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-firstiosTests-Info.plist"; sourceTree = "<group>"; };
+		5E382FDC7DFDC347EF4D3F56CDD9275A /* Pods-firstios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-firstios.modulemap"; sourceTree = "<group>"; };
+		603B93435A885A466DD0E5C48E8F0B2C /* Pods-firstios-firstiosUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-firstios-firstiosUITests-Info.plist"; sourceTree = "<group>"; };
+		613A48036D05056E9C4C61EBC03FC29F /* socket_helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket_helper.h; path = NMSSH/Config/socket_helper.h; sourceTree = "<group>"; };
+		637BA09DF29A7DF4F78F1E4D1FE7C466 /* NMSSH-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMSSH-prefix.pch"; sourceTree = "<group>"; };
+		6BF119061126CCFBC9F4B23BFC333B51 /* Pods-firstios-firstiosUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-firstios-firstiosUITests-dummy.m"; sourceTree = "<group>"; };
+		6C31A72D57D4A02AE92FD7D2F7D154F6 /* NMSSHHostConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHHostConfig.m; path = NMSSH/NMSSHHostConfig.m; sourceTree = "<group>"; };
+		6CD6581ECEC9E1EC2C8E9D0C5C6558C1 /* Pods-firstios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-firstios-Info.plist"; sourceTree = "<group>"; };
+		6EA83BFCC9D41DD033B39032F5FB26B7 /* Pods-firstiosTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-firstiosTests.modulemap"; sourceTree = "<group>"; };
+		6EEC77F51858349E93EF74E23C115C64 /* NMSSH */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NMSSH; path = NMSSH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BC00A7F2A2F6B8438846EEC0FBF793 /* NMSSHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHConfig.h; path = NMSSH/NMSSHConfig.h; sourceTree = "<group>"; };
+		73493FB42B406FA66DE2459B1003B00D /* Pods-firstios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-firstios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7693C76BE9E40840117C4E4513D2926E /* Pods-firstios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-firstios.debug.xcconfig"; sourceTree = "<group>"; };
+		7B89D214120FF4498D9757429FA49780 /* NMSSHChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHChannel.m; path = NMSSH/NMSSHChannel.m; sourceTree = "<group>"; };
+		7FDF863BF2461D4464C61F83BD591BDB /* Pods-firstios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-firstios-acknowledgements.plist"; sourceTree = "<group>"; };
+		845CBD854590E37FB8DD4FECB0853D74 /* Pods-firstios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-firstios-dummy.m"; sourceTree = "<group>"; };
+		8A147927B35C383FE6E932B573F6A002 /* NMSSHHostConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHHostConfig.h; path = NMSSH/NMSSHHostConfig.h; sourceTree = "<group>"; };
+		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8DCD1DA96696CE9464132D9AF22C3B17 /* NMSFTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSFTP.m; path = NMSSH/NMSFTP.m; sourceTree = "<group>"; };
+		91DA233E35C09F32C82AA40607ED03EE /* Pods-firstios-firstiosUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-firstios-firstiosUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9319AD3C888779758B5D45B82C55C9CE /* NMSSHSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHSession.m; path = NMSSH/NMSSHSession.m; sourceTree = "<group>"; };
+		99B1F3E23B3BA67BFD8E5B9FF8ECD235 /* Pods-firstiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-firstiosTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A0DB9E9FC99F4459A4025FD478C5BCB /* Pods-firstios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-firstios-umbrella.h"; sourceTree = "<group>"; };
+		9D176CB8185B05B5ADCE6080A98AA10C /* Pods-firstios-firstiosUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-firstios-firstiosUITests"; path = Pods_firstios_firstiosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5B0A0603E4ABA5C9B9F983F1E4CA3E8 /* NMSSHSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHSessionDelegate.h; path = NMSSH/Protocols/NMSSHSessionDelegate.h; sourceTree = "<group>"; };
+		A85C4C0953717463A1EA0C1EC81234AB /* NMSSHLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHLogger.m; path = NMSSH/Config/NMSSHLogger.m; sourceTree = "<group>"; };
+		B1B18A7F675E2E350144B485E9A0F589 /* NMSSHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHConfig.m; path = NMSSH/NMSSHConfig.m; sourceTree = "<group>"; };
+		B3D3EB2C1831584DAF35500AD51AA155 /* Pods-firstios-firstiosUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-firstios-firstiosUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7A9274D8DAC92A26076A19A8EF32079 /* NMSSH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMSSH.debug.xcconfig; sourceTree = "<group>"; };
+		BA992949B48A28FBDF0B1EDEA564C3FC /* NMSSH-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NMSSH-Info.plist"; sourceTree = "<group>"; };
+		BE53AFCD1D579EA42DE69F85B284BCD6 /* Pods-firstiosTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-firstiosTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1C17E98F9471A1CEDE235FC546702CA /* Pods-firstios-firstiosUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-firstios-firstiosUITests.modulemap"; sourceTree = "<group>"; };
+		C4C304E1EEFFFC7BE669B4BDFBC39699 /* NMSSHSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHSession.h; path = NMSSH/NMSSHSession.h; sourceTree = "<group>"; };
+		D8349F220507300FAB75BB6F32F4E74C /* Pods-firstios-firstiosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-firstios-firstiosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA6948D3B614B8582E0D2E674732DD8A /* Pods-firstiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-firstiosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF10C3D2C815AE0C21345F48E413E1FE /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = "NMSSH-iOS/Libraries/lib/libcrypto.a"; sourceTree = "<group>"; };
+		F2BFA33C4D3CE921D5B9B3EE0C6E1905 /* libssh2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libssh2.h; path = "NMSSH-iOS/Libraries/include/libssh2/libssh2.h"; sourceTree = "<group>"; };
+		F61F16DCA5FFD289D7DD5B82474DA13C /* NMSSH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMSSH.release.xcconfig; sourceTree = "<group>"; };
+		F6DF5672E48C3FF2485965DB9C697F99 /* libssh2_publickey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libssh2_publickey.h; path = "NMSSH-iOS/Libraries/include/libssh2/libssh2_publickey.h"; sourceTree = "<group>"; };
+		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07298A90A1A2A1B2E264CDFB00877847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD60B3911B40A38D2F56F6427B17580 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536B14CF2300A809A86162EA9FC11178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18352F3D52CAF23DC0406C2594C379A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542B18FD7D8D6963EFA74002177271BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD4331B3E125AFB57E6C48F29806516 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C4E633B1A1E1D8BD879176232629BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19AE031E6CCEC02B4899450D6C43FBE /* CFNetwork.framework in Frameworks */,
+				43A363006B4974CBFF097195AF8999C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		227C294C046C3FDE2D181914AF4B6E35 /* NMSSH */ = {
+			isa = PBXGroup;
+			children = (
+				F2BFA33C4D3CE921D5B9B3EE0C6E1905 /* libssh2.h */,
+				F6DF5672E48C3FF2485965DB9C697F99 /* libssh2_publickey.h */,
+				5C5F3D3C7F426B13053E1DE80D5308B9 /* libssh2_sftp.h */,
+				16009494DCA35C5757C85EDA5AA88F47 /* NMSFTP.h */,
+				8DCD1DA96696CE9464132D9AF22C3B17 /* NMSFTP.m */,
+				034B7B409A15A183076E53AD93653448 /* NMSFTPFile.h */,
+				4BB28FE67014FC82B75675735C6020A2 /* NMSFTPFile.m */,
+				04508640C85EC65065D04E9859398C86 /* NMSSH.h */,
+				33AD3A5B63EFFD1A34FB48AD7470977B /* NMSSH.h */,
+				2E1F09035964AEEE729FF22F097DF91B /* NMSSH+Protected.h */,
+				1FE2F17638042092AEA76ABE5927DDD0 /* NMSSHChannel.h */,
+				7B89D214120FF4498D9757429FA49780 /* NMSSHChannel.m */,
+				0B0D89DC37E360ED5A3BC4305136EDE5 /* NMSSHChannelDelegate.h */,
+				72BC00A7F2A2F6B8438846EEC0FBF793 /* NMSSHConfig.h */,
+				B1B18A7F675E2E350144B485E9A0F589 /* NMSSHConfig.m */,
+				8A147927B35C383FE6E932B573F6A002 /* NMSSHHostConfig.h */,
+				6C31A72D57D4A02AE92FD7D2F7D154F6 /* NMSSHHostConfig.m */,
+				0C22BE9CA5A39E178686FCF0E2F1E0A2 /* NMSSHLogger.h */,
+				A85C4C0953717463A1EA0C1EC81234AB /* NMSSHLogger.m */,
+				C4C304E1EEFFFC7BE669B4BDFBC39699 /* NMSSHSession.h */,
+				9319AD3C888779758B5D45B82C55C9CE /* NMSSHSession.m */,
+				A5B0A0603E4ABA5C9B9F983F1E4CA3E8 /* NMSSHSessionDelegate.h */,
+				613A48036D05056E9C4C61EBC03FC29F /* socket_helper.h */,
+				04C74C8540E3CC5CF4DC96A40D5C02F7 /* socket_helper.m */,
+				2E06B20AB9916A8FD685839FA3FC967B /* Frameworks */,
+				6886A20FE7D5406D6633C88E4B34B3A1 /* Support Files */,
+			);
+			name = NMSSH;
+			path = NMSSH;
+			sourceTree = "<group>";
+		};
+		2E06B20AB9916A8FD685839FA3FC967B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF10C3D2C815AE0C21345F48E413E1FE /* libcrypto.a */,
+				022DD921D4370E6DE33ABFF494BDD44C /* libssh2.a */,
+				1A2093944D7662D1E50DB163371A3456 /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		317F2463A4F9CECBA3B3F605EC05C95B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B71C83CF6437C577472975C9BED27E25 /* Pods-firstios */,
+				8D7F4B72152BDA5F4C748481018162B8 /* Pods-firstios-firstiosUITests */,
+				375C0C0809363302EF108AA9111FF568 /* Pods-firstiosTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		375C0C0809363302EF108AA9111FF568 /* Pods-firstiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EA83BFCC9D41DD033B39032F5FB26B7 /* Pods-firstiosTests.modulemap */,
+				BE53AFCD1D579EA42DE69F85B284BCD6 /* Pods-firstiosTests-acknowledgements.markdown */,
+				26D06AF9A361711D9673144FFAA266EE /* Pods-firstiosTests-acknowledgements.plist */,
+				3C93B539BDEEB3D025E248CF7305726F /* Pods-firstiosTests-dummy.m */,
+				5D07680C5E183A5F2B2585C61FDFE073 /* Pods-firstiosTests-Info.plist */,
+				4DE0EBA3FFC8DCB2370B81E3601361E4 /* Pods-firstiosTests-umbrella.h */,
+				DA6948D3B614B8582E0D2E674732DD8A /* Pods-firstiosTests.debug.xcconfig */,
+				99B1F3E23B3BA67BFD8E5B9FF8ECD235 /* Pods-firstiosTests.release.xcconfig */,
+			);
+			name = "Pods-firstiosTests";
+			path = "Target Support Files/Pods-firstiosTests";
+			sourceTree = "<group>";
+		};
+		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */,
+				FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6886A20FE7D5406D6633C88E4B34B3A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29A49FD857460D7C27B855E135F14685 /* NMSSH.modulemap */,
+				400F4CDB78660A3C60B607768CA8933A /* NMSSH-dummy.m */,
+				BA992949B48A28FBDF0B1EDEA564C3FC /* NMSSH-Info.plist */,
+				637BA09DF29A7DF4F78F1E4D1FE7C466 /* NMSSH-prefix.pch */,
+				5BE124E2A15EE01B9BA2ADF9715AC757 /* NMSSH-umbrella.h */,
+				B7A9274D8DAC92A26076A19A8EF32079 /* NMSSH.debug.xcconfig */,
+				F61F16DCA5FFD289D7DD5B82474DA13C /* NMSSH.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NMSSH";
+			sourceTree = "<group>";
+		};
+		8D7F4B72152BDA5F4C748481018162B8 /* Pods-firstios-firstiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C17E98F9471A1CEDE235FC546702CA /* Pods-firstios-firstiosUITests.modulemap */,
+				91DA233E35C09F32C82AA40607ED03EE /* Pods-firstios-firstiosUITests-acknowledgements.markdown */,
+				B3D3EB2C1831584DAF35500AD51AA155 /* Pods-firstios-firstiosUITests-acknowledgements.plist */,
+				6BF119061126CCFBC9F4B23BFC333B51 /* Pods-firstios-firstiosUITests-dummy.m */,
+				332DA04AF6ED4E7868E076D372EBB423 /* Pods-firstios-firstiosUITests-frameworks.sh */,
+				603B93435A885A466DD0E5C48E8F0B2C /* Pods-firstios-firstiosUITests-Info.plist */,
+				43F136961B7125A5923D4EEFEC71FD25 /* Pods-firstios-firstiosUITests-umbrella.h */,
+				D8349F220507300FAB75BB6F32F4E74C /* Pods-firstios-firstiosUITests.debug.xcconfig */,
+				0AB4CC609013E37B5AE6EFE92C9BE361 /* Pods-firstios-firstiosUITests.release.xcconfig */,
+			);
+			name = "Pods-firstios-firstiosUITests";
+			path = "Target Support Files/Pods-firstios-firstiosUITests";
+			sourceTree = "<group>";
+		};
+		B71C83CF6437C577472975C9BED27E25 /* Pods-firstios */ = {
+			isa = PBXGroup;
+			children = (
+				5E382FDC7DFDC347EF4D3F56CDD9275A /* Pods-firstios.modulemap */,
+				73493FB42B406FA66DE2459B1003B00D /* Pods-firstios-acknowledgements.markdown */,
+				7FDF863BF2461D4464C61F83BD591BDB /* Pods-firstios-acknowledgements.plist */,
+				845CBD854590E37FB8DD4FECB0853D74 /* Pods-firstios-dummy.m */,
+				50126C4CEDEE269B10A05CD75604BF72 /* Pods-firstios-frameworks.sh */,
+				6CD6581ECEC9E1EC2C8E9D0C5C6558C1 /* Pods-firstios-Info.plist */,
+				9A0DB9E9FC99F4459A4025FD478C5BCB /* Pods-firstios-umbrella.h */,
+				7693C76BE9E40840117C4E4513D2926E /* Pods-firstios.debug.xcconfig */,
+				2781A8E88517C436C0FBAF5769BE45C5 /* Pods-firstios.release.xcconfig */,
+			);
+			name = "Pods-firstios";
+			path = "Target Support Files/Pods-firstios";
+			sourceTree = "<group>";
+		};
+		CD460DBDBBBB87983A90ECBFD0EB6719 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				227C294C046C3FDE2D181914AF4B6E35 /* NMSSH */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				CD460DBDBBBB87983A90ECBFD0EB6719 /* Pods */,
+				FDAEBD68413ED4BA83B5292B17186EB2 /* Products */,
+				317F2463A4F9CECBA3B3F605EC05C95B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FDAEBD68413ED4BA83B5292B17186EB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EEC77F51858349E93EF74E23C115C64 /* NMSSH */,
+				5967D977DDC21B05888869449C49B5C5 /* Pods-firstios */,
+				9D176CB8185B05B5ADCE6080A98AA10C /* Pods-firstios-firstiosUITests */,
+				244F7EC0BAB6A6BD91073F13F60D37F1 /* Pods-firstiosTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C09949189CF164AEFDF397F089FF4E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3989909BCC28F1B4E2C231A679740A06 /* Pods-firstiosTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9F98DE8CBD94AA80303201AD56DE5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B24482E9458A435233B69ECA6D7070 /* Pods-firstios-firstiosUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E3AE7D4945D4B1C65BB0E445F0AC17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE781A1A5FE7DADBD76F970C779B940 /* Pods-firstios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A547D30113F77A6CC0C5E7B783CE6CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F9175C3B044B529490F4DF70516E85 /* libssh2.h in Headers */,
+				5C343F72D128D9B8631C9E60983F8B04 /* libssh2_publickey.h in Headers */,
+				682057B0AA6B4E8207149D46EC0EF544 /* libssh2_sftp.h in Headers */,
+				DA1159960CB45C1E2B49A49EC4687B34 /* NMSFTP.h in Headers */,
+				4E1F24FBB5903999CDD34B0F92D22E5D /* NMSFTPFile.h in Headers */,
+				C76AAB6AE1C6FD8C98A69F4D241CDAA3 /* NMSSH.h in Headers */,
+				D919669B28569DD512CDC8772C467AAF /* NMSSH.h in Headers */,
+				85788A77DFD9866B4F6BA79014A145CA /* NMSSH+Protected.h in Headers */,
+				BBEA93C7597718F155AECD4314BD34F4 /* NMSSH-umbrella.h in Headers */,
+				D49FB2E21A69F73A78C368024686F3DE /* NMSSHChannel.h in Headers */,
+				835359C058D96007C040A4BE1ED7EB34 /* NMSSHChannelDelegate.h in Headers */,
+				3ABC071EF2FC1BCC26011DF3958DBCBF /* NMSSHConfig.h in Headers */,
+				649EAF446DCBC6C4B31BCBD09A61BBC9 /* NMSSHHostConfig.h in Headers */,
+				54A486FE1A83B84A3E222E66833306EB /* NMSSHLogger.h in Headers */,
+				D7200A2AF94FA6A3558E8EB9CEEE17B0 /* NMSSHSession.h in Headers */,
+				54BC4C6B640B9AEA161403B18A5B1B0C /* NMSSHSessionDelegate.h in Headers */,
+				AA5CD6882D9F639F9DCF4F96A40ADCEF /* socket_helper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6DFB4DCA1624A7636DD8AE38496A8B12 /* Pods-firstios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF1BC3F260E40BAFE84CA250A5A2AF6 /* Build configuration list for PBXNativeTarget "Pods-firstios" */;
+			buildPhases = (
+				68E3AE7D4945D4B1C65BB0E445F0AC17 /* Headers */,
+				E244DD00D5C49B270EF2E51E293DB303 /* Sources */,
+				07298A90A1A2A1B2E264CDFB00877847 /* Frameworks */,
+				C45858B4D23A7F9C22D02084ADF22B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB96919750D0238220262FA7CCDA0985 /* PBXTargetDependency */,
+			);
+			name = "Pods-firstios";
+			productName = Pods_firstios;
+			productReference = 5967D977DDC21B05888869449C49B5C5 /* Pods-firstios */;
+			productType = "com.apple.product-type.framework";
+		};
+		A08A94E2E0A1724652F2289D55611A20 /* Pods-firstiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BCB81F33B350F54BE3D1ECA368EA6A3 /* Build configuration list for PBXNativeTarget "Pods-firstiosTests" */;
+			buildPhases = (
+				3C09949189CF164AEFDF397F089FF4E5 /* Headers */,
+				AEC0B0543B9F4AC3E5C07C98EB4329B6 /* Sources */,
+				542B18FD7D8D6963EFA74002177271BF /* Frameworks */,
+				9CB1950591DA0A90330C099990F37248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B628FC528D18297D90341189CBB4A98 /* PBXTargetDependency */,
+			);
+			name = "Pods-firstiosTests";
+			productName = Pods_firstiosTests;
+			productReference = 244F7EC0BAB6A6BD91073F13F60D37F1 /* Pods-firstiosTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDD44FAD7201CA22A98568FA892ACBDC /* Pods-firstios-firstiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200EE0C14045A76A679800B222BB1EF3 /* Build configuration list for PBXNativeTarget "Pods-firstios-firstiosUITests" */;
+			buildPhases = (
+				3E9F98DE8CBD94AA80303201AD56DE5C /* Headers */,
+				C9A6D99D108F33B595BA1F5C421518C5 /* Sources */,
+				536B14CF2300A809A86162EA9FC11178 /* Frameworks */,
+				76E2D4F2C7DB0D270AEED9C03F6FAC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				567918609AEA32639CE793930DF54B28 /* PBXTargetDependency */,
+			);
+			name = "Pods-firstios-firstiosUITests";
+			productName = Pods_firstios_firstiosUITests;
+			productReference = 9D176CB8185B05B5ADCE6080A98AA10C /* Pods-firstios-firstiosUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E36E3194AA9B06BC5873E083ED10B917 /* NMSSH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DE68DA1DC038F3936A928BBE9D7D50 /* Build configuration list for PBXNativeTarget "NMSSH" */;
+			buildPhases = (
+				7A547D30113F77A6CC0C5E7B783CE6CD /* Headers */,
+				F5CDA20E1966938913DDDBBAC59147F6 /* Sources */,
+				57C4E633B1A1E1D8BD879176232629BA /* Frameworks */,
+				5162F36DC361D29774D828E14CE544F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NMSSH;
+			productName = NMSSH;
+			productReference = 6EEC77F51858349E93EF74E23C115C64 /* NMSSH */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FDAEBD68413ED4BA83B5292B17186EB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E36E3194AA9B06BC5873E083ED10B917 /* NMSSH */,
+				6DFB4DCA1624A7636DD8AE38496A8B12 /* Pods-firstios */,
+				BDD44FAD7201CA22A98568FA892ACBDC /* Pods-firstios-firstiosUITests */,
+				A08A94E2E0A1724652F2289D55611A20 /* Pods-firstiosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5162F36DC361D29774D828E14CE544F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E2D4F2C7DB0D270AEED9C03F6FAC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB1950591DA0A90330C099990F37248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45858B4D23A7F9C22D02084ADF22B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC0B0543B9F4AC3E5C07C98EB4329B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6E4644CB38F5AA5B14F68C5982B344 /* Pods-firstiosTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6D99D108F33B595BA1F5C421518C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D060DF1C2BAB2E1747BA79B25630D1 /* Pods-firstios-firstiosUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E244DD00D5C49B270EF2E51E293DB303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FE63F25E72B7676B364844402DCED3 /* Pods-firstios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDA20E1966938913DDDBBAC59147F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EAA4405E99D4A40CE7CD1677566A8CE /* NMSFTP.m in Sources */,
+				4853B3F0849547F1D4DEF930642772CF /* NMSFTPFile.m in Sources */,
+				9E59146CAB7445B8AAF076BB9047DC6C /* NMSSH-dummy.m in Sources */,
+				444982A9697B70038C749064CA828EDB /* NMSSHChannel.m in Sources */,
+				6F4181AE261F8841B152788B193C3B42 /* NMSSHConfig.m in Sources */,
+				F318459517B3E25BE7AD3648F0447F37 /* NMSSHHostConfig.m in Sources */,
+				C9DD0AF511774EDEAD252BB0504D7322 /* NMSSHLogger.m in Sources */,
+				DE6EA5B3916F331033270E16FDA23791 /* NMSSHSession.m in Sources */,
+				76248558FED20F9FFF2185B38EB1BBC8 /* socket_helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		567918609AEA32639CE793930DF54B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMSSH;
+			target = E36E3194AA9B06BC5873E083ED10B917 /* NMSSH */;
+			targetProxy = C9B2469484ED943D818048490664C2FC /* PBXContainerItemProxy */;
+		};
+		5B628FC528D18297D90341189CBB4A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-firstios";
+			target = 6DFB4DCA1624A7636DD8AE38496A8B12 /* Pods-firstios */;
+			targetProxy = 325230FABAA05CFB9B7E742D430B0663 /* PBXContainerItemProxy */;
+		};
+		EB96919750D0238220262FA7CCDA0985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMSSH;
+			target = E36E3194AA9B06BC5873E083ED10B917 /* NMSSH */;
+			targetProxy = 0038CD433B8FABB90FB7FBED0F247716 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16B051C7C28DA11DA050AFEEDD5FFC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8349F220507300FAB75BB6F32F4E74C /* Pods-firstios-firstiosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-firstios-firstiosUITests/Pods-firstios-firstiosUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-firstios-firstiosUITests/Pods-firstios-firstiosUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5E78BF2085668E22CF7A9343151A26D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A9274D8DAC92A26076A19A8EF32079 /* NMSSH.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NMSSH/NMSSH-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NMSSH/NMSSH-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NMSSH/NMSSH.modulemap";
+				PRODUCT_MODULE_NAME = NMSSH;
+				PRODUCT_NAME = NMSSH;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63F959A51D0F8AF452B93BC4FD5BA585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6948D3B614B8582E0D2E674732DD8A /* Pods-firstiosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-firstiosTests/Pods-firstiosTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-firstiosTests/Pods-firstiosTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		887937798ADF326E306F878C7532ED63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2781A8E88517C436C0FBAF5769BE45C5 /* Pods-firstios.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-firstios/Pods-firstios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-firstios/Pods-firstios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AD1501184A2FA21D4890A55038C9D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B1F3E23B3BA67BFD8E5B9FF8ECD235 /* Pods-firstiosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-firstiosTests/Pods-firstiosTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-firstiosTests/Pods-firstiosTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF30CB0DCDBF3799D05CDF2CE56F8843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7693C76BE9E40840117C4E4513D2926E /* Pods-firstios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-firstios/Pods-firstios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-firstios/Pods-firstios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D60D1FDA0F3BD69486E8ACF01031CCD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB4CC609013E37B5AE6EFE92C9BE361 /* Pods-firstios-firstiosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-firstios-firstiosUITests/Pods-firstios-firstiosUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-firstios-firstiosUITests/Pods-firstios-firstiosUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FE31994A31AE1946FC4D4BA9ACD1A825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61F16DCA5FFD289D7DD5B82474DA13C /* NMSSH.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NMSSH/NMSSH-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NMSSH/NMSSH-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NMSSH/NMSSH.modulemap";
+				PRODUCT_MODULE_NAME = NMSSH;
+				PRODUCT_NAME = NMSSH;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BCB81F33B350F54BE3D1ECA368EA6A3 /* Build configuration list for PBXNativeTarget "Pods-firstiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F959A51D0F8AF452B93BC4FD5BA585 /* Debug */,
+				8AD1501184A2FA21D4890A55038C9D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		200EE0C14045A76A679800B222BB1EF3 /* Build configuration list for PBXNativeTarget "Pods-firstios-firstiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B051C7C28DA11DA050AFEEDD5FFC1E /* Debug */,
+				D60D1FDA0F3BD69486E8ACF01031CCD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DE68DA1DC038F3936A928BBE9D7D50 /* Build configuration list for PBXNativeTarget "NMSSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E78BF2085668E22CF7A9343151A26D1 /* Debug */,
+				FE31994A31AE1946FC4D4BA9ACD1A825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF1BC3F260E40BAFE84CA250A5A2AF6 /* Build configuration list for PBXNativeTarget "Pods-firstios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF30CB0DCDBF3799D05CDF2CE56F8843 /* Debug */,
+				887937798ADF326E306F878C7532ED63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
