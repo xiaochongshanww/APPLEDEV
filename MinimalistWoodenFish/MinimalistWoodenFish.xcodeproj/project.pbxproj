@@ -36,8 +36,8 @@
 
 /* Begin PBXFileReference section */
 		04A56BD52A45B163002C07E1 /* MinimalistWoodenFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalistWoodenFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04A56BD82A45B163002C07E1 /* MinimalistWoodenFishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalistWoodenFishApp.swift; sourceTree = "<group>"; };
-		04A56BDA2A45B163002C07E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04A56BD82A45B163002C07E1 /* MinimalistWoodenFishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MinimalistWoodenFishApp.swift; path = MinimalistWoodenFish/MinimalistWoodenFishApp.swift; sourceTree = SOURCE_ROOT; };
+		04A56BDA2A45B163002C07E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = MinimalistWoodenFish/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		04A56BDC2A45B166002C07E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A56BDF2A45B166002C07E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04A56BE52A45B166002C07E1 /* MinimalistWoodenFishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinimalistWoodenFishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +45,7 @@
 		04A56BEF2A45B166002C07E1 /* MinimalistWoodenFishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinimalistWoodenFishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A56BF32A45B166002C07E1 /* MinimalistWoodenFishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalistWoodenFishUITests.swift; sourceTree = "<group>"; };
 		04A56BF52A45B166002C07E1 /* MinimalistWoodenFishUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalistWoodenFishUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		04A56C062A45D107002C07E1 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hit.wav; path = ../../../../Desktop/hit.wav; sourceTree = "<group>"; };
+		04A56C062A45D107002C07E1 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hit.wav; path = /Users/qingyunzi/Documents/Developer/git_repo/APPLEDEV/MinimalistWoodenFish/hit.wav; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
