@@ -75,6 +75,7 @@ struct ContentView: View {
                 }
             }
             .statusBar(hidden: false)
+            .statusBar(hidden: false)
             .preferredColorScheme(.light)
         }
     }
